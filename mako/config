@@ -1,0 +1,26 @@
+layer=top
+anchor=top-right
+margin=16,16
+width=360
+height=120
+max-visible=5
+
+font=JetBrainsMono Nerd Font 10
+border-size=1
+border-radius=8
+padding=14
+
+background-color=#272e33cc
+border-color=#4a555b
+text-color=#d3c6aa
+
+default-timeout=5000
+
+icon-path=/usr/share/icons/hicolor
+max-icon-size=24
+
+[urgency=high]
+background-color=#272e33ee
+border-color=#e67e80
+text-color=#e67e80
+default-timeout=0
