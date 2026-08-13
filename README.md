@@ -20,3 +20,12 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 # Future plans
 
  - [ ] idk maybe optimizing things
+
+# Screenshots
+
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/19832a84-4ef0-46ae-952a-50486eb125c8" />
+
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/acf337c7-db9c-42c4-873d-80d20fe1b5c4" />
+
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/2327c35c-aea6-4c01-8873-089f0679b367" />
+
