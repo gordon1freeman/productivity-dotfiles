@@ -30,3 +30,4 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/2327c35c-aea6-4c01-8873-089f0679b367" />
 
+i'm sorry i don't know what should i put in readme
