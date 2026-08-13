@@ -44,6 +44,9 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 # Future plans
 
  - [ ] idk maybe optimizing things
+ - [ ] adapt waybar colors
+ - [ ] installing script (install.sh / bootstrap)
+ - [ ] power management (for laptops)
 
 # Screenshots
 
