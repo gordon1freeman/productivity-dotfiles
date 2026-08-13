@@ -1,0 +1,126 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 0,
+  "modules-left": ["clock", "hyprland/workspaces", "tray"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+    "custom/updates",
+    "temperature",
+    "memory",
+    "cpu",
+    "pulseaudio",
+    "battery",
+    "network",
+    "custom/powermenu"
+  ],
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8
+  },
+  "clock": {
+    "format": " 󰸗 {:%I:%M %p} ",
+    "interval": 60,
+    "tooltip": true,
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "mode": "month",
+      "iso8601": true,
+      "format": {
+        "months": "<span color='#d3c6aa'><b>{}</b></span>",
+        "weekdays": "<span color='#7fbbb3'><b>{}</b></span>",
+        "days": "<span color='#d3c6aa'>{}</span>",
+        "today": "<span color='#e67e80'><b><u>{}</u></b></span>",
+        "weeks": "<span color='#a7c080'>{}</span>"
+      }
+    }
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "separate-outputs": false,
+    "active-only": false,
+    "all-outputs": false,
+    "sort-by": "number",
+    "format-icons": {
+      // 1-10
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      // 11-20
+      "11": "1",
+      "12": "2",
+      "13": "3",
+      "14": "4",
+      "15": "5",
+      "16": "6",
+      "17": "7",
+      "18": "8",
+      "19": "9",
+      "20": "10",
+      // 21-30
+      "21": "1",
+      "22": "2",
+      "23": "3",
+      "24": "4",
+      "25": "5",
+      "26": "6",
+      "27": "7",
+      "28": "8",
+      "29": "9",
+      "30": "10"
+    }
+  },
+  "hyprland/window": {
+    "format": "{}"
+  },
+  "custom/updates": {
+    "exec": "bash -lc 'r=$(checkupdates 2>/dev/null | wc -l); a=$(paru -Qua 2>/dev/null | wc -l); [ $((r+a)) -gt 0 ] && printf \"󰏗   \" || printf \"󰏗   \"'",
+    "interval": 600,
+    "tooltip": true,
+    "tooltip-format": "Left click: update (paru -Syyu --noconfirm)",
+    "on-click": "kitty -e bash -lc 'paru -Syyu --noconfirm'"
+  },
+  "temperature": {
+    "format": "{icon} {temperatureC}°C ",
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-icons": ["", "", ""]
+  },
+  "memory": {
+    "format": "󰫗 {}% ",
+    "tooltip": true,
+    "tooltip-format": "Memory: {}%"
+  },
+  "cpu": {
+    "format": " {usage}% ",
+    "tooltip": true,
+    "tooltip-format": "CPU: {usage}%"
+  },
+  "pulseaudio": {
+    "format": " {volume}% ",
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+  },
+  "network": {
+    "format": "󰖩 ",
+    "tooltip-format": "{essid}",
+    "interval": 2,
+    "on-click": "kitty -e nmtui"
+  },
+  "battery": {
+    "format": "{capacity}%"
+  },
+  "custom/powermenu": {
+    "format": " ",
+    "tooltip": true,
+    "tooltip-format": "Power menu",
+    "on-click": "exec wlogout -p layer-shell"
+  }
+}
