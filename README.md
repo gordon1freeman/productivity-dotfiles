@@ -11,6 +11,28 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 >The dotfiles are still WIP, but in current state it's pretty much usable!
 
+# Keybinds
+
+| Bind                  | Function          |
+|-----------------------|-------------------|
+| Super + Return        | Terminal          |
+| Super + W             | Browser           |
+| Super + E             | File Manager      |
+| Super + Q             | Close window      |
+| Super + Space         | App launcher      |
+| Super + Tab           | Windows           |
+| Super + V             | Clipboard         |
+| Super + L             | Lock              |
+| Ctrl + Print          | Area screenshot   |
+| Super + F             | Fullscreen        |
+| Super + Shift + Space | Floating window   |
+| Super + P             | Pseudo            |
+| Super + J             | Toggle split      |
+| Super + Shift + Left  | Move to the left  |
+| Super + Shift + Right | Move to the right |
+|  Super + Shift + Up   | Move up           |
+| Super + Shift + Down  | Move down         |
+
 # List of things
 
  - Hyprland 0.56.2
