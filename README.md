@@ -16,6 +16,7 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
  - Waybar 0.15.0
  - Mako 1.11.0-1.1
  - Wofi 1.5.3
+ - maybe something i don't remember
 
 # Future plans
 
