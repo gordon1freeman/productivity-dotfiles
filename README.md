@@ -13,26 +13,27 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 # Keybinds
 
-| Bind                  | Function                                               |
-|-----------------------|--------------------------------------------------------|
-| Super + Return        | Terminal                                               |
-| Super + W             | Browser                                                |
-| Super + E             | File Manager                                           |
-| Super + Q             | Close window                                           |
-| Super + Space         | App launcher                                           |
-| Super + N             | notes.md in /home/ directory, floating terminal window |
-| Super + Tab           | Windows                                                |
-| Super + V             | Clipboard                                              |
-| Super + L             | Lock                                                   |
-| Ctrl + Print          | Area screenshot                                        |
-| Super + F             | Fullscreen                                             |
-| Super + Shift + Space | Floating window                                        |
-| Super + P             | Pseudo                                                 |
-| Super + J             | Toggle split                                           |
-| Super + Shift + Left  | Move to the left                                       |
-| Super + Shift + Right | Move to the right                                      |
-| Super + Shift + Up    | Move up                                                |
-| Super + Shift + Down  | Move down                                              |
+| Bind                  | Function                                              |
+|-----------------------|-------------------------------------------------------|
+| Super + Return        | Terminal                                              |
+| Super + W             | Browser                                               |
+| Super + E             | File Manager                                          |
+| Super + Q             | Close window                                          |
+| Super + Space         | App launcher                                          |
+| Super + N             | notes.md in $HOME directory, floating terminal window |
+| Super + Tab           | Windows                                               |
+| Super + V             | Clipboard                                             |
+| Super + L             | Lock                                                  |
+| Ctrl + Print          | Area screenshot                                       |
+| Print                 | Screenshot                                            |
+| Super + F             | Fullscreen                                            |
+| Super + Shift + Space | Floating window                                       |
+| Super + P             | Pseudo                                                |
+| Super + J             | Toggle split                                          |
+| Super + Shift + Left  | Move to the left                                      |
+| Super + Shift + Right | Move to the right                                     |
+| Super + Shift + Up    | Move up                                               |
+| Super + Shift + Down  | Move down                                             |
 
 # List of things
 
@@ -52,10 +53,14 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 # Screenshots
 
-<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/19832a84-4ef0-46ae-952a-50486eb125c8" />
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/67fdaaf4-502f-45c0-b566-45c8aad09f69" />
 
-<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/acf337c7-db9c-42c4-873d-80d20fe1b5c4" />
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/d05312ff-b572-4fc7-8a5a-c0b6d6f105c1" />
 
-<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/2327c35c-aea6-4c01-8873-089f0679b367" />
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/175e6f25-1dce-40f8-a292-953cb4a52485" />
+
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/ed954165-9d5c-4359-ac72-5b1f2ebad5b8" />
+
+
 
 i'm sorry i don't know what should i put in readme
