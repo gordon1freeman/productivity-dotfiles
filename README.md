@@ -34,6 +34,8 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 | Super + Shift + Right | Move to the right                                     |
 | Super + Shift + Up    | Move up                                               |
 | Super + Shift + Down  | Move down                                             |
+| Super + 1-0           | Switch workspaces (1-10)                              |
+| Super + Shift + 1-0   | Move window to workspace                              |
 
 # List of things
 
