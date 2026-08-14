@@ -3,13 +3,14 @@
 }
 
 #waybar {
+  /* background: #171717; */
   background: #0a0a0a;
   color: #fff;
 }
 
 tooltip {
   background: #1e2326;
-  border: 1px solid #272e33;
+  border: 1px solid #a7c080;
   border-radius: 6px;
 }
 
@@ -17,8 +18,6 @@ tooltip label {
   color: #d3c6aa;
   padding: 6px 10px;
 }
-
-/* left */
 
 #clock {
   color: #fff;
@@ -36,42 +35,42 @@ tooltip label {
 }
 
 #workspaces button.active {
-  color: #84cc16;
+  color: #a7c080;
 }
 
 #tray {
   padding-left: 4px;
 }
 
-/* center */
+/* CENTER MODULE */
 
 #window {
   color: #fff;
 }
 
-/* right */
+/* RIGHT MODULES */
 
 #custom-updates {
-  color: #84cc16;
+  color: #a7c080;
 }
 
 #temperature {
-  color: #eab308;
+  color: #dbbc7f;
   margin-right: 4px;
 }
 
 #memory {
-  color: #d946ef;
+  color: #d699b6;
   margin-right: 4px;
 }
 
 #cpu {
-  color: #0ea5e9;
+  color: #a7c080;
   margin-right: 4px;
 }
 
 #pulseaudio {
-  color: #14b8a6;
+  color: #83c092;
   margin-right: 4px;
 }
 
@@ -79,16 +78,21 @@ tooltip label {
   margin-right: 8px;
 }
 
+#custom-power-mode {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
 #custom-bluetooth {
-  color: #3b82f6;
+  color: #7fbbb3;
   margin-right: 8px;
 }
 
 #network {
-  color: #3b82f6;
+  color: #7fbbb3;
   margin-right: 8px;
 }
 
 #custom-powermenu {
-  color: #f43f5e;
+  color: #e67e80;
 }
