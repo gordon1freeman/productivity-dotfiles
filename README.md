@@ -41,7 +41,7 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
  - Wofi 1.5.3
  - maybe something i don't remember
 
-# Future plans
+# Todo
 
  - [x] power management (for laptops)
  - [x] adapt waybar colors
