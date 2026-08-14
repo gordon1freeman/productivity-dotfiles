@@ -1,23 +1,30 @@
 -- Monitors
 hl.monitor({
-          output   = " ",
-          mode     = " ",
-          position = " ",
+          output   = "eDP-1",
+          mode     = "1920x1200@120.00Hz",
+          position = "0x0",
           scale    = "1",
       })
 -- Programs
 local terminal    = "kitty"
 local fileManager = "nautilus"
 local menu        = "wofi --show drun"
-local browser     = " "
+local browser     = "zen-browser"
 
 -- Autostart
 hl.on("hyprland.start", function ()
+    hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
     hl.exec_cmd("waybar")
     hl.exec_cmd("mako")
     hl.exec_cmd("hypridle")
     hl.exec_cmd("wl-paste --watch cliphist store")
 end)
+
+-- Environment
+hl.env("XCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
+hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
 
 -- Main config
 hl.config({
@@ -94,7 +101,7 @@ hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + W",     hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + E",     hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + Q",     hl.dsp.window.close())
-hl.bind(mainMod .. " + F",		hl.dsp.window.fullscreen())
+hl.bind(mainMod .. " + F",     hl.dsp.window.fullscreen())
 
 -- Launcher & utilities
 hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd("bash -c 'pkill wofi || wofi --show drun'"))
