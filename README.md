@@ -13,25 +13,26 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 # Keybinds
 
-| Bind                  | Function          |
-|-----------------------|-------------------|
-| Super + Return        | Terminal          |
-| Super + W             | Browser           |
-| Super + E             | File Manager      |
-| Super + Q             | Close window      |
-| Super + Space         | App launcher      |
-| Super + Tab           | Windows           |
-| Super + V             | Clipboard         |
-| Super + L             | Lock              |
-| Ctrl + Print          | Area screenshot   |
-| Super + F             | Fullscreen        |
-| Super + Shift + Space | Floating window   |
-| Super + P             | Pseudo            |
-| Super + J             | Toggle split      |
-| Super + Shift + Left  | Move to the left  |
-| Super + Shift + Right | Move to the right |
-|  Super + Shift + Up   | Move up           |
-| Super + Shift + Down  | Move down         |
+| Bind                  | Function                                               |
+|-----------------------|--------------------------------------------------------|
+| Super + Return        | Terminal                                               |
+| Super + W             | Browser                                                |
+| Super + E             | File Manager                                           |
+| Super + Q             | Close window                                           |
+| Super + Space         | App launcher                                           |
+| Super + N             | notes.md in /home/ directory, floating terminal window |
+| Super + Tab           | Windows                                                |
+| Super + V             | Clipboard                                              |
+| Super + L             | Lock                                                   |
+| Ctrl + Print          | Area screenshot                                        |
+| Super + F             | Fullscreen                                             |
+| Super + Shift + Space | Floating window                                        |
+| Super + P             | Pseudo                                                 |
+| Super + J             | Toggle split                                           |
+| Super + Shift + Left  | Move to the left                                       |
+| Super + Shift + Right | Move to the right                                      |
+| Super + Shift + Up    | Move up                                                |
+| Super + Shift + Down  | Move down                                              |
 
 # List of things
 
