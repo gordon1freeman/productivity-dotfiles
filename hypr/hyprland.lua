@@ -110,9 +110,12 @@ hl.bind(mainMod .. " + R",     hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + V",     hl.dsp.exec_cmd("bash -c 'cliphist list | wofi --dmenu | cliphist decode | wl-copy'"))
 hl.bind(mainMod .. " + M",     hl.dsp.exec_cmd("bash -c 'pkill wlogout || wlogout -p layer-shell -b 2'"))
 hl.bind(mainMod .. " + L",     hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + N",     hl.dsp.exec_cmd("~/.config/hypr/scripts/toggle-float.sh notes kitty --class=notes -e micro /home/kir/notes.md"))
+hl.bind(mainMod .. " + grave", hl.dsp.exec_cmd("~/.config/hypr/scripts/toggle-float.sh dropdown kitty --class=dropdown"))
 
--- Screenshots (crop)
-hl.bind("CTRL + Print", hl.dsp.exec_cmd([[bash -c 'grim -g "$(slurp)" "${HOME}/Pictures/screenshots/SS$(date +%Y-%m-%d_%H-%M-%S).png" && wl-copy < "${HOME}/Pictures/screenshots/SS$(date +%Y-%m-%d_%H-%M-%S).png"']]))
+-- Screenshots
+hl.bind("Print",       hl.dsp.exec_cmd([[bash -c 'F="${HOME}/Pictures/screenshots/SS$(date +%Y-%m-%d_%H-%M-%S).png"; grim "$F" && wl-copy < "$F"']]))
+hl.bind("CTRL + Print", hl.dsp.exec_cmd([[bash -c 'F="${HOME}/Pictures/screenshots/SS$(date +%Y-%m-%d_%H-%M-%S).png"; grim -g "$(slurp)" "$F" && wl-copy < "$F"']]))
 
 -- Window management
 hl.bind(mainMod .. " + SHIFT + Space",  hl.dsp.window.float({ action = "toggle" }))
@@ -174,6 +177,22 @@ hl.window_rule({
     match = { class = "hyprland-run" },
     move  = "20 monitor_h-120",
     float = true,
+})
+
+hl.window_rule({
+    name   = "notes-float",
+    match  = { class = "notes" },
+    float  = true,
+    size   = "monitor_w*0.6 monitor_h*0.6",
+    center = true,
+})
+
+hl.window_rule({
+    name  = "dropdown-float",
+    match = { class = "dropdown" },
+    float = true,
+    size  = "monitor_w monitor_h*0.3",
+    move  = "0 0",
 })
 
 -- Layer rules (blur)
