@@ -59,6 +59,8 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/d05312ff-b572-4fc7-8a5a-c0b6d6f105c1" />
 
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/32047623-6ead-41cd-a959-afcc489a2692" />
+
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/175e6f25-1dce-40f8-a292-953cb4a52485" />
 
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/ed954165-9d5c-4359-ac72-5b1f2ebad5b8" />
