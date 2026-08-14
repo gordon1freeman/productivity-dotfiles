@@ -43,10 +43,10 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 # Future plans
 
+ - [x] power management (for laptops)
+ - [x] adapt waybar colors
  - [ ] idk maybe optimizing things
- - [ ] adapt waybar colors
  - [ ] installing script (install.sh / bootstrap)
- - [ ] power management (for laptops)
  - [ ] backup script (when the installer is done)
 
 # Screenshots
