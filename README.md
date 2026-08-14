@@ -45,7 +45,7 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
  - [x] power management (for laptops)
  - [x] adapt waybar colors
- - [ ] idk maybe optimizing things
+ - [x] idk maybe optimizing things
  - [ ] installing script (install.sh / bootstrap)
  - [ ] backup script (when the installer is done)
 
