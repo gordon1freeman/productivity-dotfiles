@@ -62,7 +62,7 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/8bbe9589-9b1a-489c-9895-93a81a0c3924" />
 
-<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/10ddd85c-cc42-44a2-bc1b-241c49be4ce3" />
+<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/168800e7-4e40-45d4-872e-92d62b6a57b5" />
 
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/175e6f25-1dce-40f8-a292-953cb4a52485" />
 
