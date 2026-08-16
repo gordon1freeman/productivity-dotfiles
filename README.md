@@ -50,6 +50,7 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
  - [x] power management (for laptops)
  - [x] adapt waybar colors
  - [x] idk maybe optimizing things
+ - [ ] switch from wofi to fuzzel
  - [ ] installing script (install.sh / bootstrap)
  - [ ] backup script (when the installer is done)
 
