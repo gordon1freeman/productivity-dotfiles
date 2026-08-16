@@ -42,7 +42,9 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
  - Hyprland 0.56.2
  - Waybar 0.15.0
  - Mako 1.11.0-1.1
- - Wofi 1.5.3
+ - Fuzzel 1.14.1
+ - Hyprlock 0.9.6
+ - Kitty 0.48.2
  - maybe something i don't remember
 
 # Todo
