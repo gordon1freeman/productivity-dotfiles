@@ -58,7 +58,7 @@ Heavily inspired by **[maxhu08's dotfiles](https://github.com/maxhu08/dotfiles)*
 
 # Screenshots
 
-<img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/3ad5e531-0c2c-4d79-a1e3-d88b24f5e528" />
+<img width="1920" height="1200" alt="endeavouros is insanely cool!!!!" src="https://github.com/user-attachments/assets/3ad5e531-0c2c-4d79-a1e3-d88b24f5e528" />
 
 <img width="1920" height="1200" alt="изображение" src="https://github.com/user-attachments/assets/8bbe9589-9b1a-489c-9895-93a81a0c3924" />
 
