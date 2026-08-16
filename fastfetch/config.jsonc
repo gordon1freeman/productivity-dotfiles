@@ -9,7 +9,6 @@
     },
     "separator": ""
   },
-  "logo": "~/.config/fastfetch/arch_haiii.txt",
   
   "modules": [
     "break",
